@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.contenedor{
+    margin-top: 4%;
+    max-width: 400px;
+    width: 100%;
+    height: 80%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3.5% 0% 3% 0%;
+    background: rgb(248, 163, 94);
+    border-radius: 10px;
+    flex-direction: column; 
+}
+.contenedor .calculadora{
+width: 80%;
+display: flex;
+height: 100%;
+flex-direction: column;
+font-size: 150%;
+border-radius: 10px;
+
+}
+.display{
+      width: 100%;
+      padding: 8% 1%;
+      text-align: right;
+      max-height: 100px;
+      border: 1px solid rgb(59, 59, 59);
+      overflow-x: auto;
+      background: white;
+      border-radius: 10px 10px 0 0 ;
+}
+.tecladonumeros{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    flex-wrap: wrap;  
+}
+.boton{
+  width: 25%;
+  border: 1px solid rgb(59, 59, 59);
+  padding: 5%; 
+  text-align: center;
+  cursor: pointer;
+  background: white;
+  height: 20%;
+}
+.boton:hover{
+   background-color: rgb(231, 229, 229);
+}
+.boton.color{
+    background: rgb(127, 193, 238);
+}
+.boton.color:hover{
+    background:rgb(33, 162, 248);
+}
+.rojo{
+    background-color: rgb(245, 111, 111);
+}
+.verde{
+    background-color: rgb(138, 231, 138);
+}
+.rojo:hover{
+    background-color: rgb(241, 58, 58);
+}
+.verde:hover{
+    background-color: rgb(80, 240, 80);
+}
+.ultimo{
+    border-radius: 0 0 0 10px;
+}
+.ultimo2{
+    border-radius: 0 0 10px 0;
+}
